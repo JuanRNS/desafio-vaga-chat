@@ -1,0 +1,44 @@
+.history-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  height: calc(100vh - 10rem);
+  width: 100%;
+  max-width: 1200px;
+}
+
+.history-header {
+  padding: 1rem;
+  background-color: rgba(15, 23, 42, 0.5);
+  border-radius: 0.5rem 0.5rem 0 0;
+  border-bottom: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.history-header h2 {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 1.25rem;
+}
+
+.history-content {
+  flex: 1;
+  padding: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.history-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+
